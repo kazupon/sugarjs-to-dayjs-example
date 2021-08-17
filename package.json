@@ -1,0 +1,21 @@
+{
+  "name": "sugarjs-to-dayjs-example",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.6",
+    "sugar-date": "^2.0.6",
+    "vue": "^3.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.4.0",
+    "@vue/compiler-sfc": "^3.2.2",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.0",
+    "vue-tsc": "^0.2.2"
+  }
+}
